@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      h2 {
-        color: red;
-      }
-    </style>
-    <meta charset="utf-8" />
-    <title>Informatik: HTML</title>
+    <title>En webside med CSS og JavaScript</title>
+    <!-- Vi inkluderer styling -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h1>En meget simpel webside</h1>
+    <p>Se også <a href="https://info.cern.ch/">her</a> 
+      og <a href="https://www.dr.dk/nyheder/viden/teknologi/verdens-foerste-hjemmeside-har-30-aars-jubilaeum-du-kan-besoege-den-her">her</a></p>
+
     <h1>Introduktion til HTML elementer</h1>
+    <p>(Prøv at klikke på overskriften - den kan skifte farve)</p>
     <p>En overskrift står i et &lt;h&gt; (header) element</p>
     <p>Der findes 6 niveauer af overskrifter: fra &lt;h1&gt; til &lt;h6&gt;</p>
     <p>
@@ -25,7 +26,7 @@
       <li>Og endnu et emne i en liste</li>
     </ul>
     <p>Ovenfor ser du en liste lavet med &lt;ul&gt; og &lt;li&gt;</p>
-    <h2>Dette er en h2 overskrift. Den er rød - kig i headeren.</h2>
+    <h2>Dette er en h2 overskrift.</h2>
     <p>En sætning eller et afsnit som denne står i et &lt;p&gt; element</p>
     <a href="https://slotshaven.dk">Dette er et link til Slotshaven</a>
     <p>Her kommer et skitse af internettet fra 1969:</p>
@@ -34,5 +35,15 @@
       src="https://upload.wikimedia.org/wikipedia/commons/d/d6/A_sketch_of_the_ARPANET_in_December_1969.png"
       title="Sketch of ARPANET"
     />
+    <p>og et logo fra Slotshaven:
+      <img
+      width="250"
+      src="logo.png"
+      title="Slotshavens logo"
+    />
+    </p>
+
+    <!-- Vi inkluderer javascript -->
+    <script src="script.js"></script>
   </body>
 </html>

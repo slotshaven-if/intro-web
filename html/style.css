@@ -1,0 +1,6 @@
+h1 { 
+    color: blue;
+} 
+.clicked-class {
+    color: green; /* Change the text color */
+  }
